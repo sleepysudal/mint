@@ -1,0 +1,11 @@
+package day0616;
+
+public class OperTest_07 {
+
+	public static void main(String[] args) {
+		//기본자료형은_8개
+		//1.논리형_true, false 
+		boolean b=false;
+	}
+
+}
