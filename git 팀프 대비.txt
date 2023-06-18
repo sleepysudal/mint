@@ -1,0 +1,42 @@
+내가 남 초대할때 저장소에서 test 001 에서 settings 눌러서 콜라보레이터에서 add 로 초대함
+
+파일수정은 git bash 로 폴더 경로 가고 
+거기서 git clone git허브주소 복붙하고 
+그 폴더 잇으면 그걸 cd 로 받은폴더 경로이동하고 
+git add . 해서 파일 받고 
+git commit -m "메모" 치고 
+git push origin main 
+ 
+
+내가 남거 할때 도 
+초대받고 들어가서 경로 git bash 하고 
+git clone 허브주소 
+cd 로 그폴더 ex)cd test022
+파일 머하나 추가햇으면 git add . 
+그리고 git commit -m " eser"
+git push origin main
+
+남이 새로 추가하면 
+git pull origin main
+
+브랜치 추가할때는 
+git branch "원하는 브렌치이름(ex love119)"
+
+그리고 그 브렌치로 로그인 할때
+git checkout "love119"
+
+그리고 파일 새로추가됫거나 바귀면 
+git add . 
+git commit -m "메모"
+git origin push "브랜치이름"
+
+머지 할떄 
+git bash 들어가서 체크아웃을 git branch main 가서 
+git pull origin main 최신화하는거 
+git merge test0001 (올리는게 메인이면 원본이잇는브랜치명)
+git push origin main 올라감
+
+브랜치 깃배쉬로 지울땐
+일단 브랜치 체크 git branch 
+git branch -d 브랜치명  (내 로컬 브랜치 지우기)
+git push origin -d 브랜치명(온라인 브랜치 지우기)
