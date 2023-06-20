@@ -1,0 +1,11 @@
+package day0620;
+
+public class CharAt_14 {
+	public static void main(String[]args) {
+		//변수 지정
+		String juminNum="971034-2345678"
+				//index순서 01234567.....
+				char seventh=juminNum.charAt(7);
+		System.out.println(seventh);
+	}
+}

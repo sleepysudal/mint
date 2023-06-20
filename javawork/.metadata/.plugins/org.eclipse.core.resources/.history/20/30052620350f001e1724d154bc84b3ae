@@ -1,0 +1,7 @@
+package day0620;
+
+public class CharAt_14 {
+	public static void main(String[]args) {
+		String juminNum="971034-2345678"
+	}
+}
