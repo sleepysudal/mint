@@ -1,0 +1,31 @@
+package day0620;
+
+import java.util.Scanner;
+
+public class IfMax_03 {
+
+	public static void main(String[] args) {
+		// 2개의 숫자를 입력받았을때 Max,Min 값 구해보기
+		
+		//임포트
+		Scanner sc=new Scanner(System.in);
+		
+		//변수지정
+		int x,y,max;
+		
+		//값 입력받기
+		System.out.println("**두개의 숫자를 입력하시오**");
+		x=sc.nextInt();
+		y=sc.nextInt();
+		
+		System.out.println("입력한 두수: "+x+","+y);
+		
+		if(x>y) {
+			System.out.println("max=x");
+		}
+		else
+			System.out.println("max=y");
+		
+	}
+
+}
