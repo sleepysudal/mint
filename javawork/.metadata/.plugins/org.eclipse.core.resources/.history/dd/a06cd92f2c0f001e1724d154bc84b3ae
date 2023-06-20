@@ -1,0 +1,49 @@
+package day0620;
+
+import java.util.Scanner;
+
+public class SwitchTest_10 {
+
+	public static void main(String[] args) {
+		
+		//임포트
+		Scanner sc=new Scanner(System.in);
+		//변수 지정
+		int n;
+		
+		//값 입력받기
+		System.out.println("n 값 입력해주세요: ");
+		n = sc.nextInt();
+		
+		switch(n)		
+		{case1:
+			System.out.println("n is 1");
+		break;
+		case2:
+			System.out.println("n is 2");
+		break;
+		case3:
+			System.out.println("n is 3");
+		break;
+		case4:
+			System.out.println("n is 4");
+		default:
+			System.out.println("n is > 4");
+		}
+		String msg = "happy";
+		
+		Switch(msg)
+		{
+			case "Hello":
+				System.out.println("안녕");
+				break;
+			case "happy":
+				System.out.println("행복하다");
+				break;
+			case "nice":
+				System.out.println("좋다");
+				break;
+		}
+	}
+
+}
