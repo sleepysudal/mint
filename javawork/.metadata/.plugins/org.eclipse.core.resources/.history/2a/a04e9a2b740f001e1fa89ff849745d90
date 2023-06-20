@@ -1,0 +1,10 @@
+package gittest;
+import java.util.Scanner;
+public class AplusB_02 {
+
+	public static void main(String[] args) {
+		//임포트
+		Scanner sc= new Scanner(System.in); 
+	}
+
+}
